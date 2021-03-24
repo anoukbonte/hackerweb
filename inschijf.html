@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+ 
+     <link rel="shortcut icon" href="./Image/Extra/favicon.ico" type="image/x-icon"> 
+    <title>Cyber Academy</title>
+  </head> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="logo.css">
+
+  <body style="background-color:rgb(0, 0, 0);">
+
+<!-- Body -->
+
+<!-- Navbar begin-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      Cyber Academy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.mboutrecht.nl/opendag/">Open Dag</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="file:///C:/Users/anouk/Downloads/Project%20Hacker/form.html/" id="inschijven">Inschijf formulier</a>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Opleidingen
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="https://www.mboutrecht.nl/opleidingen/?domein=ict">ICT</a></li>
+            <li><a class="dropdown-item" href="https://www.mboutrecht.nl/opleidingen/?domein=bouwkunde">Bouwkunde</a></li>
+            <li><a class="dropdown-item" href="https://www.mboutrecht.nl/opleidingen/?domein=technologie">Technologie</a></li>
+            <li><a class="dropdown-item" href="https://www.mboutrecht.nl/opleidingen/?domein=marketing-evenementen">Marketing en Evenementen</a></li>
+            <li><a class="dropdown-item" href="#https://www.mboutrecht.nl/opleidingen/?domein=sport">Sport</a></li>
+            <li><a class="dropdown-item" href="https://www.mboutrecht.nl/opleidingen/?domein=zorg-welzijn">Zorg en Welzijn</a></li>
+            <li><a class="dropdown-item" href="https://www.mboutrecht.nl/opleidingen/?domein=kind-en-onderwijs">Kind en Onderwijs</a></li>
+            <li><a class="dropdown-item" href="file:///C:/Users/anouk/Downloads/Project%20Hacker/form.html/">formulier</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://www.mboutrecht.nl/opleidingen/?domein=bouwkunde+muziekindustrie+retail-en-commercie+financieel-juridisch-secretarieel+sport+technologie+zorg-welzijn+marketing-evenementen+kind-en-onderwijs+ict+horeca-en-toerisme">Alle opleidingen</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">The Game</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+      <!-- navbar einde? -->
+      <!-- Carousel begin -->
+    <main role="main">
+  
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Image/Caroussel/pepe.gif " class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Image/Caroussel/happy.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Image/Caroussel/banner5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Image/Caroussel/banner1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Image/Caroussel/banner7.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Vorige</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Volgende</span>
+        </button>
+      </div>
+
+    <!-- hier begint het formulier -->
+    <div class="row">
+        <div class="col-6">
+            <form action="./create.php" method="post">
+                <!-- firstname -->
+                <div class="form-group">    
+                    <label for="firstname" style="color: white;">Voornaam</label>
+                    <input type="text" class="form-control" id="firstname" aria-describedby="firstnameHelp" placeholder="Invoer voornaam" name= "firstname">
+                </div>
+                <!-- infix -->
+            <div class="form-group">
+                <label for="infix" style="color: white;">Tussenvoegsel</label>
+                <input type="text" class="form-control" id="infix" aria-describedby="infixlHelp" placeholder="Invoer tussenvoegsel" name= "infix">
+            </div>
+            <div class="form-group">
+            <!-- lastname -->
+                <label for="lastname" style="color: white;">Achternaam</label>
+                <input type="text" class="form-control" id="lastname" aria-describedby="lastnameHelp" placeholder="Invoer achternaam" name="lastname">
+            </div>
+            <div class="form-group">
+                    <!-- BSN nummer -->
+                        <label for="BSN" style="color: white;">BSN nummer</label>
+                        <input type="text" class="form-control" id="birthday" aria-describedby="birthdayHelp" placeholder="Invoer BSN nummer" name= "BSN">
+                    </div>
+                    <div class="form-group">
+                    <!-- mobiel nummer -->
+                        <label for="phone" style="color: white;">Mobiel nummer</label>
+                        <input type="text" class="form-control" id="phone" aria-describedby="phoneHelp" placeholder="Invoer mobielnummer" name= "phone">
+                    </div>
+                    <div class="form-group">
+            <!-- streetname -->
+                <label for="birthday" style="color: white;">Geboortedatum</label>
+                <input type="text" class="form-control" id="birthday" aria-describedby="birthdayHelp" placeholder="Invoer geboortedatum" name= "birthday">
+            </div>
+            <div class="form-group">
+            <!-- number -->
+                <label for="adres" style="color: white;">Adres</label>
+                <input type="text" class="form-control" id="adres" aria-describedby="adresHelp" placeholder="Invoer adres" name= "adres">
+            </div>
+            <div class="form-group">
+            <!-- city -->
+                <label for="city" style="color: white;">Plaats</label>
+                <input type="text" class="form-control" id="city" aria-describedby="cityeHelp" placeholder="Invoer plaats" name= "city">
+            </div>
+            <button type="submit" class="btn btn-success">Versturen</button>
+        </form>
+        </div>
+    </div> 
+        <!------>
+        
+    </main>
+    <!-- einde formulier -->
+  
+  
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2021 P-A-M-M &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+  </main>
+
+  <footer class="footer-area footer--light">
+    <div class="footer-big">
+      <!-- start .container -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <div class="footer-widget">
+              <div class="widget-about">
+                <img src="./Image/Extra/Copy of Westview School.gif" alt="" class="img-fluid">
+                <p>Cyber Academy - "There Was An Idea..." - Fury's Speech</p>
+                <ul class="contact-details">
+                  <li>
+                    <span class="icon-earphones"></span> Bel ons op:
+                    <a href="tel:030-4531674">030-4531674</a>
+                  </li>
+                  <li>
+                    <span class="icon-envelope-open"></span>
+                    <a href="info@cyberacademy.nl">info@cyberacademy.nl</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Ends: .footer-widget -->
+          </div>
+          <!-- end /.col-md-4 -->
+          <div class="col-md-3 col-sm-4">
+            <div class="footer-widget">
+              <div class="footer-menu footer-menu--1">
+                <h4 class="footer-widget-title">Poulair</h4>
+                <ul>
+                  <li>
+                    <a href="https://www.123test.nl/gratis-studiekeuzetest/">Studiekeuze hulp</a>
+                  </li>
+                  <li>
+                    <a href="https://www.rivm.nl/coronavirus-covid-19/vragen-antwoorden">Veelgestelde vragen Corona</a>
+                  </li>
+                  <li>
+                    <a href="https://www.mboutrecht.nl/werkenbij/">Vacatures</a>
+                  </li>
+                  <li>
+                    <a href="https://www.schoolvakantie-kalender.nl/schoolvakanties-utrecht.html">Schoolvakanties</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end /.footer-menu -->
+            </div>
+            <!-- Ends: .footer-widget -->
+          </div>
+          <!-- end /.col-md-3 -->
+  
+          <div class="col-md-3 col-sm-4">
+            <div class="footer-widget">
+              <div class="footer-menu">
+                <h4 class="footer-widget-title">Praktisch</h4>
+                <ul>
+                  <li>
+                    <a href="https://www.mboutrecht.nl/studenten/ziekmelden/">Ziekmelden</a>
+                  </li>
+                  <li>
+                    <a href="https://www.mboutrecht.nl/praktisch/schoolkosten/">Schoolkosten en Duo</a>
+                  </li>
+                  <li>
+                </ul>
+              </div>
+              <!-- end /.footer-menu -->
+            </div>
+            <!-- Ends: .footer-widget -->
+          </div>
+          <!-- end /.col-lg-3 -->
+  
+          <div class="col-md-3 col-sm-4">
+            <div class="footer-widget">
+              <div class="footer-menu no-padding">
+                <h4 class="footer-widget-title">Contact gegevens</h4>
+                <ul>
+                  <li>
+                    <p href="#">030-4531674</p>
+                  </li>
+                  <li>
+                    <p href="#">06-19347662  (Whatsapp)</p>
+                  </li>
+                  <li>
+                    <p href="#">info@cyberacademy.nl</p>
+                  </li>
+                </ul>
+              </div>
+              <!-- end /.footer-menu -->
+            </div>
+            <!-- Ends: .footer-widget -->
+          </div>
+          <!-- Ends: .col-lg-3 -->
+  
+        </div>
+        <!-- end /.row -->
+      </div>
+      <!-- end /.container -->
+    </div>
+    <!-- end /.footer-big -->
+  
+    <div class="mini-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright-text">
+              <p>Â© 2021
+                <a href="#">cyberacademy</a>. All rights reserved. Created by
+                <a href="#">Us</a>
+              </p>
+            </div>
+  
+            <div class="go_top">
+              <span class="icon-arrow-up"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- Navbar einde -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
