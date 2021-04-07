@@ -33,11 +33,11 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://www.mboutrecht.nl/opendag/">Open Dag</a>
+          <a class="nav-link" href="https://www.mboutrecht.nl/opendag/">Open dag</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="file:///C:/Users/anouk/Downloads/Project%20Hacker/form.html/" id="inschijven">Inschijf formulier</a>
-          </li>
+          <a class="nav-link" href="file:///C:/Users/anouk/Downloads/Project%20Hacker/form.html">Inschijfformulier</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Opleidingen
@@ -50,7 +50,6 @@
             <li><a class="dropdown-item" href="#https://www.mboutrecht.nl/opleidingen/?domein=sport">Sport</a></li>
             <li><a class="dropdown-item" href="https://www.mboutrecht.nl/opleidingen/?domein=zorg-welzijn">Zorg en Welzijn</a></li>
             <li><a class="dropdown-item" href="https://www.mboutrecht.nl/opleidingen/?domein=kind-en-onderwijs">Kind en Onderwijs</a></li>
-            <li><a class="dropdown-item" href="file:///C:/Users/anouk/Downloads/Project%20Hacker/form.html/">formulier</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="https://www.mboutrecht.nl/opleidingen/?domein=bouwkunde+muziekindustrie+retail-en-commercie+financieel-juridisch-secretarieel+sport+technologie+zorg-welzijn+marketing-evenementen+kind-en-onderwijs+ict+horeca-en-toerisme">Alle opleidingen</a></li>
           </ul>
@@ -73,10 +72,10 @@
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./Image/Caroussel/pepe.gif " class="d-block w-100" alt="...">
+            <img src="./Image/Caroussel/welcome-to-coding.gif" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./Image/Caroussel/happy.jpg" class="d-block w-100" alt="...">
+            <img src="./Image/Extra/Copy of Westview School.gif" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
             <img src="./Image/Caroussel/banner5.jpg" class="d-block w-100" alt="...">
@@ -98,59 +97,133 @@
         </button>
       </div>
 
-    <!-- hier begint het formulier -->
-    <div class="row">
-        <div class="col-6">
-            <form action="./create.php" method="post">
-                <!-- firstname -->
-                <div class="form-group">    
-                    <label for="firstname" style="color: white;">Voornaam</label>
-                    <input type="text" class="form-control" id="firstname" aria-describedby="firstnameHelp" placeholder="Invoer voornaam" name= "firstname">
-                </div>
-                <!-- infix -->
-            <div class="form-group">
-                <label for="infix" style="color: white;">Tussenvoegsel</label>
-                <input type="text" class="form-control" id="infix" aria-describedby="infixlHelp" placeholder="Invoer tussenvoegsel" name= "infix">
-            </div>
-            <div class="form-group">
-            <!-- lastname -->
-                <label for="lastname" style="color: white;">Achternaam</label>
-                <input type="text" class="form-control" id="lastname" aria-describedby="lastnameHelp" placeholder="Invoer achternaam" name="lastname">
-            </div>
-            <div class="form-group">
-                    <!-- BSN nummer -->
-                        <label for="bsn" style="color: white;">BSN nummer</label>
-                        <input type="text" class="form-control" id="bsn" aria-describedby="bsnHelp" placeholder="Invoer bsn nummer" name= "bsn">
-                    </div>
-                    <div class="form-group">
-                    <!-- mobiel nummer -->
-                        <label for="phone" style="color: white;">Mobiel nummer</label>
-                        <input type="text" class="form-control" id="phone" aria-describedby="phoneHelp" placeholder="Invoer mobielnummer" name= "phone">
-                    </div>
-                    <div class="form-group">
-            <!-- streetname -->
-                <label for="birthday" style="color: white;">Geboortedatum</label>
-                <input type="text" class="form-control" id="birthday" aria-describedby="birthdayHelp" placeholder="Invoer geboortedatum" name= "birthday">
-            </div>
-            <div class="form-group">
-            <!-- number -->
-                <label for="adres" style="color: white;">Adres</label>
-                <input type="text" class="form-control" id="adres" aria-describedby="adresHelp" placeholder="Invoer adres" name= "adres">
-            </div>
-            <div class="form-group">
-            <!-- city -->
-                <label for="city" style="color: white;">Plaats</label>
-                <input type="text" class="form-control" id="city" aria-describedby="cityeHelp" placeholder="Invoer plaats" name= "city">
-            </div>
-            <button type="submit" class="btn btn-success">Versturen</button>
-        </form>
-        </div>
-    </div> 
-        <!------>
-        
-    </main>
-    <!-- einde formulier -->
+      <video width="1920" height="1080" controls>
+        <source src="./Image/Extra/Video.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      </video>
+<!-- carousel einde -->
   
+    <div class="container marketing">
+  
+      <!-- ICON START -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="./Image/Icon/penwit.png" alt="....." width="200" height="200"> 
+          <h2 style="color: #4FFD05;" id="formulier">Aanmelden</h2>
+          <p style="color:#FFFFFF;">Vind jij het leuk om technische problemen op te lossen en nieuwe mogelijkheden te onderzoeken? Wil jij de communicatie verbeteren en op de hoogte blijven van de laatste ontwikkelingen? Dan is een ICT-opleiding echt iets voor jou!</p>
+          <p><a class="btn btn-success" href="#" role="button">Meld je direct aan &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="./Image/Icon/money-icon-white.png" alt="....." width="200" height="200"> 
+          <h2 style="color: #4FFD05;">Kosten </h2>
+          <p style="color:#FFFFFF;"> Voor deze opleiding betaal je lesgeld als je op 1 augustus ouder bent dan 18 jaar. Verder moet je rekening houden met de aanschaf van een laptop en kosten voor boeken en andere leermiddelen.</p>
+          <p><a class="btn btn-success" href="#" role="button">Kostenoverzicht schooljaar &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="./Image/Icon/thumbswitpng.png" alt="....." width="200" height="200"> 
+          <h2 style="color: #4FFD05;">Toelating</h2>
+          <p style="color:#FFFFFF;">Geldt een van de onderstaande situaties voor jou? Dan mag je je aanmelden voor deze opleiding:
+
+            <br>Je hebt een diploma VMBO kader, GL, TL of MAVO.
+            <br>Je hebt een overgangsbewijs van HAVO 3 naar HAVO 4.
+            <br>Diploma MBO niveau 2 of 3.</p>
+          <p><a class="btn btn-success" href="#" role="button"> Bekijk alle toelatingseisen &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+  <!-- ICON einde -->
+  
+      <!-- START CARDS -->
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 style="color: #F0955B;" class="featurette-heading"> Bescherm jij organisaties tegen cybercrime? </h2>
+          <p style="color: #FFFFFF;" class="lead">Techniek is overal om ons heen. We zijn via het internet allemaal met elkaar verbonden, we communiceren mobiel en we betalen digitaal. Informatietechnologie maakt ons het leven dus vaak gemakkelijker. Maar er is ook een andere kant. Onze afhankelijkheid van techniek maakt ons kwetsbaar voor aanvallen van cybercriminelen.
+            Cybercriminelen zijn vaak uit op geld en gebruiken ICT om het te krijgen. Niet alleen via het internet, maar ook door mobiele telefoons en bankpassen te manipuleren. Criminelen maken slim gebruik van software en hardware om hun doelen te bereiken. Via phishing- en malware-mails maken zij mensen en organisaties geld afhandig. Of hackers stelen gegevens van bedrijven om hen geld af te persen. Soms willen de hackers vooral schade toebrengen door de gestolen data op internet te zetten. 
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="./Image/500x500/vierkant1.jpg" alt="ff kijken wat" width="500" height="500"> 
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 style="color: #5DB4F9" class="featurette-heading"> Verschillende soorten hackers </h2>
+          <p style="color: #FFFFFF;" class="lead"  >White hat hacker:
+            <br>Een white hat hacker, ook wel ethical hacker, is een computerbeveiligingsspecialist. Deze hackers worden ingehuurd door bedrijven en handelen alleen op basis van toestemming van de eigenaar om een datalek op te sporen. De intentie van een ethical hacker is om de veiligheid van andere bedrijven te waarborgen.
+            <br>Black hat hacker:
+            <br>Een black hat hacker is een hacker met kwade bedoelingen en is strafbaar. Deze hacker verspreidt ransomware om aan geld te komen en steelt persoonlijke gegevens door middel van phishing.
+            Is het echt zo zwart-wit? Nee, er is ook een Grey hat hacker. 
+            <br>Grey hat hacker: 
+            <br>Een gray hat hacker heeft wel goede intenties en handelt uit een goed hart, maar heeft geen toestemming gekregen van de eigenaar om in te breken op de website.
+            
+            </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="./Image/Caroussel/coding-freak.gif" alt="ff kijken wat" width="500" height="500"> 
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 style="color: #F0955B;" class="featurette-heading">Wat doet een ethical hacker?</h2>
+          <p style="color: #FFFFFF;" class="lead">Een ethical hacker werkt in of voor een organisatie en probeert, met voorafgaande toestemming van de eigenaar, netwerken of computersystemen binnen te dringen. Dit heet een Pentest of Penetratietest. Met een pentest gaat een ethical hacker opzoek naar kwetsbaarheden en probeert de hacker de beveiliging van het systeem te omzeilen, in te breken of te doorbreken. Aan de hand van een pentest krijgt de organisatie inzicht in de zwakke plekken en risico's in applicaties, netwerken en systemen.
+            <br>Er zijn verschillende soorten pentesten:
+            <br>Black box: de hacker krijgt minimale voorkennis.
+            <br>White box: de hacker krijgt voorafgaand aan de test inzicht in alle aspecten van de systeemarchitectuur.
+            <br>Grey box: de hacker krijgt een deel van de informatie.
+            <br>Vervolgens kan de organisatie op basis van de resultaten van de pentest maatregelen treffen om risico's te beperken en de beveiliging te verbeteren. Een pentest kan dus een waardevolle aanvulling zijn om de mate van beveiliging en informatiesystemen te beoordelen.
+            </p>
+        </div>
+        <div class="col-md-5">
+         <img src="./Image/500x500/vierkant2.jpg" alt="ff kijken wat" width="500" height="500">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 style="color: #5DB4F9"class="featurette-heading"> Praktische informatie </h2>
+          <p style="color: #FFFFFF;" class="lead">
+            De opleiding Hacker is een BOL-opleiding. Je krijgt 3 jaar lang les en praktijk op niveau 4. Er is een mogelijkheid om de opleiding te versnellen. Dat hangt af van je vooropleiding en hoe jij je ontwikkelt. Tijdens de opleiding leer je alle in en outs van software en het internet. Bij een BOL-opleiding zit je ongeveer 60% van de tijd op school. De rest van de tijd doe je praktijkervaring op en loop je stage bij een leerbedrijf.
+ Vraag de gratis brochure aan voor meer informatie over de inhoud en vakken! 
+            </p>
+            <button type="button" class="btn btn-light btn-lg"> Gratis brochure </button>
+        </div>
+        <div class="col-md-5 order-md-1">
+         <img src="./Image/Caroussel/200.gif" alt="ff kijken wat" width="500" height="500">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 style="color: #F0955B;"class="featurette-heading">Praktische informatie</h2>
+          <p style="color: #FFFFFF;" class="lead">Duur van de opleiding is: 3 jaar op niveau 4
+            <br>BOL
+            <br>Start: augustus/september
+            <br>Locatie: Daltonlaan 300 in Utrecht
+            <br>crebo nummer/naam: 63482 / Hacker
+            <br>Versnellen: Ja</p>
+        </div>
+        <div class="col-md-5">
+         <img src="./Image/Caroussel/banner4.jpg" alt="ff kijken wat" width="500" height="500">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <!-- EINDE CARDS-->
+  
+    </div><!-- /.container -->
   
     <!-- FOOTER -->
     <footer class="container">

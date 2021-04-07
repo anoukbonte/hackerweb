@@ -46,14 +46,14 @@
     $infix = sanitize($_POST["infix"]);
     $lastname = sanitize($_POST["lastname"]);
     $birthday = sanitize($_POST["birthday"]);
-    $BSN = sanitize($_POST["BSN"]);
+    $bsn = sanitize($_POST["BSN"]);
     $phone = sanitize($_POST["phone"]);
     $adres = sanitize($_POST["adres"]);
     $email = sanitize($_POST["email"]);
     
 
     // Dit is de sql-query die de ingevulde gegevens wegschrijft naar de tabel users
-    $sql = "INSERT INTO `users` (`id`, `firstname`, `infix`, `lastname`, `birthday`, `BSN`, `phone`, `adres`, `email`) VALUES (NULL, '$firstname', '$infix', '$lastname', '$birthday', '$BSN', '$phone', '$adres','$email')";
+    $sql = "INSERT INTO `users` (`id`, `firstname`, `infix`, `lastname`, `birthday`, `bsn`, `phone`, `adres`, `email`) VALUES (NULL, '$firstname', '$infix', '$lastname', '$birthday', '$bsn', '$phone', '$adres', '$email')";
     // Dit is de functie die de query $sql via de verbinding $conn naar de database stuurt
     mysqli_query($conn, $sql);
 

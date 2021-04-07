@@ -3,7 +3,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "hacker";
+    $dbname = "project_hacker";
 
     // Met deze functie maken we contact met de mysql-server
     $conn = mysqli_connect($servername, $username, $password, $dbname);
