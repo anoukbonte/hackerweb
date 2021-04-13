@@ -1,3 +1,54 @@
+<?php
+    include("./connect_db.php");
+
+    $per_page = 2;
+
+    $sql = "SELECT * FROM `users`";
+
+    // Dit is de functie die de query $sql via de verbinding $conn naar de database stuurt
+    $result = mysqli_query($conn, $sql);
+
+    $count = mysqli_num_rows($result);
+
+    $pages = ceil($count/$per_page);
+
+    if (isset($_GET["page"])) {
+        $page = $_GET["page"];
+    } else {
+        $page = 1;
+    }
+
+    $start = ($page-1)*$per_page;
+
+    $sql = "SELECT * FROM `users` order by id limit $start,$per_page";
+
+    $records = "";
+    // De while loop geeft alle gegevens weer uit de tabel users
+    while ($record = mysqli_fetch_assoc($result)){
+        $records .= "<tr>
+                        <th scope= 'row'>" . $record["id"] . "</th>
+                        <td>" . $record["firstname"] . "</td>
+                        <td>" . $record["infix"] . "</td>
+                        <td>" . $record["lastname"] . "</td>
+                        <td>" . $record["birthday"] . "</td>
+                        <td>" . $record["bsn"] . "</td>
+                        <td>" . $record["phone"] . "</td>
+                        <td>" . $record["adres"] . "</td>
+                        <td>" . $record["email"] . "</td>
+                        <td>
+                            <a href='./update.php?id=" . $record["id"]  . "'>
+                                <img src='./img/icons/b_edit.png' alt='pencil'>
+                            </a>
+                        </td>
+                        <td>
+                            <a href='./delete.php?id=" . $record["id"]  . "'>
+                                <img src='./img/icons/b_drop.png' alt='cross'>
+                            </a>
+                        </td>
+                    </tr>";
+    }
+
+?>
 <link rel="stylesheet" href="styleform.css">
 <!DOCTYPE html>
 <link rel="shortcut icon" href="./Image/Extra/favicon.ico" type="image/x-icon"> 

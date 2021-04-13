@@ -12,7 +12,7 @@
   <div class="container">
     <div class="title">Inschijven</div>
     <div class="content">
-      <form action="#">
+      <form action="./create.php" method="POST">
         <div class="user-details">
           <div class="input-box">
             <span class="details">Voornaam</span>
@@ -28,15 +28,15 @@
           </div>
           <div class="input-box">
             <span class="details">Geboortedatum</span>
-            <input type="text" placeholder="Je Geboortedatum" required name="birthday">
+            <input type="date" placeholder="Je Geboortedatum" required name="birthday">
           </div>
           <div class="input-box">
             <span class="details">BSN nummer</span>
-            <input type="text" placeholder="Schijf je BSN nummer" required name="BSN">
+            <input type="number" placeholder="Schijf je BSN nummer" required name="BSN">
           </div>
                     <div class="input-box">
             <span class="details">Telefoon nummer</span>
-            <input type="text" placeholder="Schijf je Telefoon nummer" required name="phone">
+            <input type="tel" placeholder="Schijf je Telefoon nummer" required name="phone">
           </div>
           <div class="input-box">
             <span class="details">Adres</span>
@@ -44,7 +44,7 @@
           </div>
           <div class="input-box">
             <span class="details">Email</span>
-            <input type="text" placeholder="Huidige email" required name="email">
+            <input type="email" placeholder="Huidige email" required name="email">
           </div>
         </div>
         <div class="gender-details">
